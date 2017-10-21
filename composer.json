@@ -1,0 +1,21 @@
+{
+	"name": "mahmoud.abdallah/firewallphp",
+	"description": "A PHP-Firewall",
+	"keywords": ["firewall php", "firewall"],
+	"type": "package",
+	"license": "MIT",
+
+	"authors": [{
+        "name": "Mahmoud-Abdallah",
+        "email": "mahmoud.abdallah.cs@gmail.com"
+    }],
+
+    "version": "0.0.1",
+    "minimum-stability": "dev",
+
+    "autoload": {
+        "psr-4": {
+            "Firewall\\" : "src/"
+        }
+    }
+}
